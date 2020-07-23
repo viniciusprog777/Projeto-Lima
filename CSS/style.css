@@ -1,0 +1,374 @@
+/*Reset do CSS*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*Classes Globais*/
+a:link,  a:visited, a:active{
+    color: #ffffff;
+    text-decoration: none;
+}
+#fundoSite{
+    background-color: #4f4f4f;
+}
+.conteudo{
+    width: 1300px; 
+    height: inherit;
+    padding-top: 10px;
+
+}
+.centerObject{
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.alturaAutomatica{
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+/* Padronização para os textos do site */
+p{
+    font-family: Courier New;
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 1.5;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h1, h2, h3{
+    font-family: Courier New;
+    font-style: bold;
+    font-size: 38px;
+    color: #f52a2a;
+    width: 100%;
+    height: 50px;
+    padding-top: 8px;
+    padding-left: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    
+}
+
+h2{
+    font-family: Copperplate Gothic;
+    font-size: 24px;
+    color: #ffffff;
+    text-transform: none;
+    margin-left: 25px;
+ }
+h3{
+    height: 20px;
+    font-family: Copperplate Gothic;
+    font-size: 14px;
+    color: #8a8787;
+    text-transform: none;
+    padding-top: 4px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+/*CSS do Site*/
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+    position: fixed;
+   
+}
+#menuContainer{
+    width: 700px;
+    height: 60px;
+    float: right;
+}
+.logo{
+    width: 200px;
+    height: 57px;
+    float: left;
+    background-image: url(../imagens/logo%20http.png);
+    background-size: contain;
+}
+#menu{
+    width: 700px;
+    height: 60px;
+     
+}
+
+.menuItens{
+    width: 120px;
+    height: 50px;
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Courier New;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #f52a2a;
+    list-style: none;
+    list-style-position: inside;
+   
+
+}
+
+.menuItens:hover{
+    background-color:#f52a2a;
+    cursor: pointer;
+    color: #000000;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#banner{
+    width: 100%;
+    height: 700px;
+    background-color: RGBA(79,79,79,0.7);
+    background-image: url(../imagens/Banner2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 150px;
+    
+}
+#bannerTxt{
+    width: 850px;
+    height: 400px;
+    margin-left: 250px;
+    border: solid 2px;
+    border-color: #f52a2a;
+}
+#bannerTxt p{
+    font-size: 55px;
+    text-align: center;
+}
+#bannerTxt h3{
+    text-align: center;
+    font-size: 35px;
+    color: #f52a2a; 
+}
+#sobre{
+    min-height: 500px;
+    background-image: url(../imagens/fundo06.png);
+    background-position: center;
+    background-repeat:no-repeat;
+}
+#sobreTxt{
+    width: 600px;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#imgSobre{
+    width: 550px;
+    height: 350px;
+    border: solid 1px;
+    border-color: red;
+    float: left;
+    background-image: url(../imagens/teclado.jpg);
+    background-size: contain;
+    margin-bottom: 30px;
+    
+}
+#imgSobre2{
+    width: 1000px;
+    height: 500px;
+    margin-top: 30px;
+    background-image: url(../imagens/mba.png);
+    clear: both;
+    padding-top: 200px;
+}
+#textoImg{
+    width: 400px;
+    height: 200px;
+    
+}
+#textoImg h2{
+    font-size: 20px;
+    height: 20px;
+    text-align: center;
+}
+.vermelho{
+    color: #f52a2a;
+}
+
+#cursos{
+    min-height: 500px;
+    background-image: url(../imagens/fundo06.png);
+    background-position: center;
+    background-repeat:no-repeat;
+}
+#cursos h2{
+    clear: both;
+    height: 45px;
+    margin-bottom: 0px;
+}
+.botaocursos{
+    height: 110px;
+    width: 250px;
+    border: solid 2px;
+    border-color: red;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    color: #f52a2a;
+    padding-top: 13px;
+    padding-left: 15px;    
+}
+.formatarBotao{
+    font-family: Courier New;
+    font-style: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.botaocursos:hover{
+    background-color:#f52a2a;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+.online{
+    background-color:#f52a2a;
+    width:85px;
+    height: 25px;   
+}
+.online p{
+    font-size: 18px;
+    padding: 0px; 
+}
+.linha{
+    width: 200px;
+    height: 4px;
+    background-color: #f52a2a;
+    margin-left: 35px;
+}
+#programas{
+    min-height: 500px;
+    background-image: url(../imagens/fundo05.png);
+    background-position: center;
+    background-repeat:no-repeat;
+}
+#programasImg01{
+    width: 945px;
+    height: 493px;
+    margin-top: 30px;
+    background-image: url(../imagens/intercambio.png);
+    clear: both;
+    padding-top: 200px;
+    padding-left: 75px;
+    
+}
+#programasImg01 h1{
+    font-family: Calibri;
+    text-transform:none;
+    color: RGBA(255,255,255,0.7);
+    font-size: 50px;
+    
+}
+.programasInter{
+    height: 400px;
+    width: 350px;
+   
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#mit, #toronto, #oxford{
+    width: 350px;
+    height: 220px;
+    background-image: url(../imagens/mit.jpg);
+    background-size: contain;
+}
+#toronto{
+    background-image: url(../imagens/toronto.jpeg);
+}
+#oxford{
+    background-image: url(../imagens/oxford.jpg);
+}
+.programasInter:hover{
+    background-color: #f52a2a;
+    cursor: pointer;
+    color: #000000;
+    transition: 0.5s;
+}
+.programasInter p{
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+}
+.programasInter h3{
+    margin-left: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+#bolsas{
+    min-height: 500px;
+    background-image: url(../imagens/fundo06.png);
+    background-position: center;
+    background-repeat:no-repeat;
+}
+.bolsaFinan{
+    height: 300px;
+    width: 250px;
+    border: solid 2px;
+    border-color: #f52a2a;
+    float: left;
+    margin-left: 120px;
+    margin-top: 30px;
+    padding-top: 120px;
+}
+.bolsaFinan:hover{
+    background-color:#f52a2a;
+    cursor: pointer;
+    color: #000000;
+    transition: 0.5s;
+}
+.bolsaFinan p{
+    color: #ffffff;
+    font-size: 33px;
+}
+#contato{
+    min-height: 500px;
+    background-image: url(../imagens/fundo06.png);
+    background-position: center;
+    background-repeat:no-repeat;
+}
+#contato li{
+    font-family: Courier New;
+    font-size: 26px;
+    color: #ffffff;
+    text-transform: none;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+#contatoTxt{
+    width: 600px;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#imgContato{
+    width: 550px;
+    min-height: 450px;
+    border: 10px;
+    border-color: red;
+    float: left;
+    margin-bottom: 30px;
+    
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
